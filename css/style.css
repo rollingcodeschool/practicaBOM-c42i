@@ -1,9 +1,87 @@
+@import url('https://fonts.googleapis.com/css2?family=Rajdhani:wght@500&display=swap');
 body{
     min-height: 100vh;
     display: flex;
     flex-direction: column;
+    background: #000;
+}
+
+h2{
+    font-family: 'Rajdhani', sans-serif;
+    color: #fff;
 }
 
 main{
     flex-grow: 1;
 }
+
+.text-Azul{
+    text-shadow: 0 0 5px #236dde,
+    0 0 10px #236dde,
+    0 0 15px #236dde,
+    0 0 25px #236dde,
+    0 0 30px #236dde,
+    0 0 45px #236dde,
+    0 0 50px #236dde,
+    0 0 65px #236dde,
+    0 0 75px #236dde,
+    0 0 85px #236dde,
+    0 0 95px #236dde,
+    0 0 100px #236dde;
+}
+.text-Gris{
+    text-shadow: 0 0 5px #9ba0a6,
+    0 0 10px #9ba0a6,
+    0 0 15px #9ba0a6,
+    0 0 25px #9ba0a6,
+    0 0 30px #9ba0a6,
+    0 0 45px #9ba0a6,
+    0 0 65px #9ba0a6,
+    0 0 75px #9ba0a6,
+    0 0 95px #9ba0a6,
+    0 0 100px #9ba0a6;
+}
+.text-Rojo{
+    text-shadow: 0 0 5px #e55e57,
+    0 0 10px #e55e57,
+    0 0 15px #e55e57,
+    0 0 25px #e55e57,
+    0 0 30px #e55e57,
+    0 0 45px #e55e57,
+    0 0 65px #e55e57,
+    0 0 75px #e55e57,
+    0 0 95px #e55e57,
+    0 0 100px #e55e57;
+}
+
+.btn-azul{
+    background: #236dde;
+    color: #fff;
+}
+
+.btn-azul:hover{
+    border: 1px solid #236dde;
+    color: #236dde;
+}
+
+.btn-gris{
+    background: #9ba0a6;
+    color: #fff;
+}
+
+.btn-gris:hover{
+    border: 1px solid #9ba0a6;
+    color: #9ba0a6;
+}
+
+
+.btn-rojo{
+    background: #e55e57;
+    color: #fff;
+}
+
+.btn-rojo:hover{
+    border: 1px solid #e55e57;
+    color: #e55e57;
+}
+
